@@ -82,34 +82,3 @@ class MyClient(commands.Bot):
 
 
 
-
-            
-
-# class Music(commands.Cog):
-#     def __init__(self, bot):
-#         self.bot = bot
-
-#     @commands.command(name='join', help='Join a voice channel')
-#     async def join(self, ctx):
-#         channel = ctx.author.voice.channel
-#         await ctx.guild.change_voice_state(channel=channel)
-
-#     @commands.command(name='leave', help='Leave the voice channel')
-#     async def leave(self, ctx):
-#         await ctx.guild.change_voice_state(channel=None)
-
-#     @commands.command(name='play', help='Play a song')
-#     async def play(self, ctx, *, query):
-#         # Implement your music play logic here
-#         await ctx.send(f'Now playing: {query}')
-
-            
-# intents = discord.Intents.default()
-# intents.message_content = True
-# bot = MyClient(command_prefix='!', intents=intents)
-# bot.run(f'MTE4NDM3OTk3OTk5NjM1MjU5Mw.Ghh1js.5yoAcG_GVSv3Kv6bEReJa3EpJ8XTnExLig3x1s')
-# client = MyClient(intents=intents)
-# client.run('MTE4NDM3OTk3OTk5NjM1MjU5Mw.Ghh1js.5yoAcG_GVSv3Kv6bEReJa3EpJ8XTnExLig3x1s')
-
-
-
